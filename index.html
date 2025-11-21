@@ -16,7 +16,6 @@
     
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
     <style>
         :root {
             --primary-color: #1a472a;
@@ -25,18 +24,15 @@
             --font-display: 'Montserrat', sans-serif;
             --font-body: 'Open Sans', sans-serif;
         }
-
         body {
             font-family: var(--font-body);
             color: var(--secondary-color);
             overflow-x: hidden;
         }
-
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-display);
             font-weight: 700;
         }
-
         /* Navigation */
         .navbar {
             transition: all 0.3s ease;
@@ -50,28 +46,23 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             padding: 0.5rem 0;
         }
-
         .navbar-brand {
             font-weight: 800;
             font-size: 1.5rem;
             color: white;
         }
-
         .navbar.scrolled .navbar-brand,
         .navbar.scrolled .nav-link {
             color: var(--secondary-color);
         }
-
         .nav-link {
             color: rgba(255,255,255,0.9);
             font-weight: 500;
             margin-left: 1rem;
         }
-
         .nav-link:hover {
             color: var(--accent-color) !important;
         }
-
         .btn-primary {
             background-color: var(--accent-color);
             border-color: var(--accent-color);
@@ -79,13 +70,11 @@
             padding: 0.75rem 2rem;
             font-weight: 700;
         }
-
         .btn-primary:hover {
             background-color: #c09b2d;
             border-color: #c09b2d;
             color: #143620;
         }
-
         /* Hero Section */
         #home {
             height: 100vh;
@@ -100,7 +89,6 @@
             color: white;
             text-align: center;
         }
-
         .highlight-strip {
             background-color: var(--primary-color);
             color: white;
@@ -110,26 +98,22 @@
             letter-spacing: 1px;
             font-size: 0.9rem;
         }
-
         /* Cards */
         .card {
             border: 1px solid #eee;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             height: 100%;
         }
-
         .card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 30px rgba(0,0,0,0.1);
             border-color: var(--primary-color);
         }
-
         .price {
             font-size: 2.5rem;
             color: var(--primary-color);
             font-weight: 700;
         }
-
         /* Footer */
         footer {
             background-color: #1a1a1a;
@@ -139,7 +123,6 @@
     </style>
 </head>
 <body id="home-top">
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
@@ -164,7 +147,6 @@
             </div>
         </div>
     </nav>
-
     <!-- Hero Section -->
     <section id="home">
         <div class="container">
@@ -180,7 +162,6 @@
             </div>
         </div>
     </section>
-
     <!-- Trusted Strip -->
     <div class="highlight-strip text-center">
         <div class="container">
@@ -189,10 +170,8 @@
             Investor-Focused Transparency
         </div>
     </div>
-
     <!-- Main Content Sections would go here (About, Plans, Technology, Contact) -->
     <!-- For brevity, the full sections are implemented in the live preview -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         // Navbar scroll effect
@@ -204,3 +183,11 @@
             } else {
                 document.querySelector('.navbar').classList.remove('scrolled');
                 document.querySelector('.navbar').classList.add('navbar-
+
+dark');
+document.querySelector('.navbar').classList.remove('navbar-light');
+}
+});
+</script>
+
+</body> </html> 
